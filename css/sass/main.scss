@@ -1,0 +1,78 @@
+.Oval {
+margin-left:95%;
+margin-top: -10%;
+}
+.colops {
+    display: flex;
+    gap: 15%;
+}
+.right {
+    margin-left:78%;
+    margin-bottom: 60%;
+}
+@media (max-width:500px) {
+    .copon {
+        flex-direction: column; 
+    }
+    .colops {
+        flex-direction: column;
+        width: 25%;
+    }
+ 
+}
+@media (max-width:769px) {
+    .sidebar{
+        flex-direction: column;
+        padding-right:25% ;
+        p {
+            display: flex;
+           font-size: 10px;
+           padding-right:89px ; 
+        }
+        img {
+            padding-left:80px;
+        }
+    }
+   
+}
+@media (max-width:495px) {
+    .placer {
+        display: block;
+       position:absolute;
+       right: 55%;
+       top:70px;
+       padding-bottom:50px;
+
+    }
+}
+@media (max-width:458px) {
+   .table {
+    font-size:10px;
+   }
+   .thard {
+    width: 15px;
+   }
+     .map {
+        width: 75px;
+    }
+}
+@media (max-width:485px) {
+    .right {
+        margin-bottom:500px;
+       
+    } 
+  
+}
+@media (max-width:500px) {
+  .content {
+    position: relative;
+    left: 35%;
+    top:45%;
+    bottom: 0;
+    right:0 ;
+    img {
+        width: 25%;
+        border-radius:50% ;
+    }
+  } 
+}
